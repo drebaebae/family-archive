@@ -1,0 +1,128 @@
+body{
+    /*background-color: whitesmoke;
+    /*background-image: url(Background/BananaCorn.png);
+    background-repeat:no-repeat;
+    /*background-position: center; /* Center the image background-repeat: no-repeat; /* Do not repeat the image *background-size: cover;
+    background-position-y: 15%; */
+    font-size: 12px;
+    font-size: normal;
+    color: 313639;
+}
+
+#img_one{
+    /*background-color:red;*/
+    width:400px;
+    height:250px;
+    position: absolute;
+    left:5%;
+    top:10%;
+    z-index: 1;
+    transform: rotate(-10deg);
+    
+  }
+  
+  #img_two{
+   /*background-color:blue;*/
+    width:250px;
+    height:350px;
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    z-index: 1;
+    transform: rotate(5deg);
+    
+  }
+  #img_three{
+    /*background-color:yellow;*/
+    width:200px;
+    height:200px;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: rotate(10deg);
+    z-index:1;
+  }
+  #img_four{
+    /*background-color:purple;*/
+    width:200px;
+    height:200px;
+    position: absolute;
+    left: 68%;
+    top: 35%;
+    z-index:1;
+    transform: rotate(-5deg);
+  }
+  #img_five{
+    /*background-color:green;*/
+    width:200px;
+    height:150px;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: rotate(0deg);
+    z-index: 1;
+    
+  }
+  #span1{
+    background-color: rgba(211,211,211,.3);
+    width:100px;
+  }
+  #span2{
+    background-color: rgba(211,211,211,.3);
+  }
+  #span3{
+    background-color: rgba(211,211,211,.3);
+  }
+  #span4{
+    background-color: rgba(211,211,211,.3);
+  }
+  #span5{
+    background-color: rgba(211,211,211,.3);
+    top: -10%;
+  }
+
+  .video-foreground,
+  .video-background iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  
+  @media (min-aspect-ratio: 16/9) {
+    .video-foreground {
+      height: 300%;
+      top: -100%;
+    }
+  }
+  
+  @media (max-aspect-ratio: 16/9) {
+    .video-foreground {
+      width: 300%;
+      left: -100%;
+    }
+  }
+  
+.video1 {
+    width: 100vw;
+    height: 100vh;
+    /*background-color: red;*/
+  }
+
+  
+  @media screen and (max-width: 800px) {
+
+  }
+
+#toptext{
+    border: 1px solid;
+    border-radius: 5px;
+    bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+    position: center;
+}
+  
